@@ -1,0 +1,10 @@
+name: Shell commands
+
+on: [push,fork]
+
+jobs:
+    run-shell-command:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Imprimiendo en pantalla
+              run: echo "Bienvenido a tu pipeline devsecops"
